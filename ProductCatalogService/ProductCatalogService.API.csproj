@@ -14,4 +14,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProductCatalogService.Business\ProductCatalogService.Business.csproj" />
+  </ItemGroup>
+
 </Project>
