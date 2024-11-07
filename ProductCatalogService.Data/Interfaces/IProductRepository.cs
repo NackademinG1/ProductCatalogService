@@ -1,5 +1,8 @@
-﻿namespace ProductCatalogService.Data.Interfaces;
+﻿using ProductCatalogService.Data.Models;
 
-internal class IProductRepository
+namespace ProductCatalogService.Data.Interfaces;
+
+public interface IProductRepository
 {
+    IEnumerable<Product> GetAllProducts();
 }

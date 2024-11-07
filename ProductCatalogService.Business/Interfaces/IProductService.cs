@@ -1,5 +1,6 @@
 ﻿namespace ProductCatalogService.Business.Interfaces;
 
-internal class IProductService
+public interface IProductService
 {
+    IEnumerable<Product> GetProducts();
 }
