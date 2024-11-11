@@ -7,7 +7,6 @@ public class ProductRepository : IProductRepository
 {
     public IEnumerable<Product> GetAllProducts()
     {
-        // Returnerar en hårdkodad lista med produkter för enkelhetens skull
         return new List<Product>
         {
             new Product { Id = 1, Name = "Product A" },

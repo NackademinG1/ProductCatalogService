@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProductCatalogService.Business.Interfaces;
-using ProductCatalogService.Data.Models;
 
 namespace ProductCatalogService.API.Controllers
 {

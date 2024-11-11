@@ -15,7 +15,6 @@ public class ProductService : IProductService
 
     public IEnumerable<Product> GetProducts()
     {
-        // Använder repository för att hämta produkter
         return _productRepository.GetAllProducts();
     }
 }
